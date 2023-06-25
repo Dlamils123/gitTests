@@ -1,1 +1,22 @@
+#include <iostream>
+#include <string>
 
+using namespace std;
+
+class MyMobilePhone {
+protected:
+int password = 1234;
+public:
+string name = "Redmi9";
+float versions = 9.4; 
+void phone() {
+    cout << name << endl << versions << endl;
+}
+};
+
+int main()
+{
+    MyMobilePhone A;
+    A.phone();
+    return 0;
+}
